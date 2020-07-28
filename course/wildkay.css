@@ -1,0 +1,196 @@
+.black{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    
+}
+.white{
+    background: white;
+    text-align: center;
+}
+    .white ol{
+    
+        display: flex;
+        list-style: none;
+       color: blue;
+        
+    }
+    .white ol li{
+        display: block;
+       width: 110px;
+       margin: 15px;
+       padding: 15px;
+       float: right;
+       font-size: 10px;
+
+        
+    }
+    .sublink1{
+        display: none;
+    }
+    .white ol li a{
+        
+        text-decoration: none;
+        color: #000;
+    }
+    .white ol li a:hover{
+     background: black;
+     border-radius: 3px;
+     height: 70px;
+    }
+    
+    .white ol li:hover.sublink1 {
+        display: block;
+        position: absolute;
+        background: navy;
+        margin-top: 15px;
+        margin-left: 15px;
+
+    }
+    .white ol li:hover.sublink1 ol
+    {
+        display: block;
+        margin: 10px;
+ }
+    .white ol li:hover.sublink ol li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .white ol li:hover.subwhite ol li:last-child{
+
+        border-bottom: none;
+    }
+    .white ol li:hover.subwhite ol li a :hover{
+
+        color: thistle;
+    }
+    .ima{
+        size: 10px;
+        display: flex;
+        float: right;
+        
+    }
+      
+      .mainchoco{
+         text-align: center;
+         background-color: rgb(255, 250, 205);
+    
+    
+      }
+      
+
+      .gorrilas{
+          display: flex;
+          width: 100%;
+          justify-content: stretch;
+    
+      }
+      .gol{
+          width:6%;
+          height: 500px;
+      }
+      .button{
+        
+        justify-content: space-     between;
+      }
+      button:hover{
+          color: blue;
+          background-color: blue;
+      }
+      .lion{
+          display: flex;
+          text-align: center;
+      }
+      .word{
+          text-align: center;
+      }
+      .button2{
+          
+          justify-content: space-between;
+      }
+      .person{
+          background-color:  rgb(255, 250, 205); 
+      }
+      .subperson{
+          display: flex;
+          text-align: center;
+      }
+      .image{
+              width: 50px;
+              padding-right: 20px;
+              
+      }
+      .subblack{
+          float: left;
+      }
+      .ima{
+          float: right;
+          size: 20px;
+      }
+      .LOG{
+          width: 200PX;
+          float: left;
+          height: 70%;
+          margin-left:0px;
+         
+      }
+      .subblack{
+          width: 40%;
+      }
+      input{
+          padding-right: 50px;
+      }
+
+     div.scroll{
+         margin: 4px;
+         padding: 4px;
+         background-color:green;
+         width: 500px;
+         height: 110px;
+         overflow-x: hidden;
+         overflow-x:auto;
+         text-align: justify;
+         text-align: center;
+     }
+     .rig{
+         text-align: right;
+     }
+     .box{
+         margin: 1px;
+         border: 1px;
+         border-color: green;
+         
+     }
+     input{
+         padding-right: 0px;
+     }
+     .green{
+         display: flex;
+         justify-content: space-between;
+
+     }
+     img{
+         size: 30px;
+     }
+     .lastgreenmain{
+         display: flex;
+         background-color: green;
+         justify-content: space-between;
+         padding: 30px;
+         
+         
+     }
+     .lastblack{
+         background-color: black;
+     }
+     h4{
+         color: white;
+     }
+     .logos{
+         
+     }

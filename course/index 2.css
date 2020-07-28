@@ -1,0 +1,35 @@
+.lightblue{
+background-color:lightblue;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+{
+    display: flex;
+.comp{
+    width: 100px;
+    height: 100px;
+    align-item: right;
+}
+.ter{
+    width: 100px;
+    height: 100px;
+    align-items: right;
+}
+.fact{
+    color:#fcf9f2;
+    display: flex;
+justify-content: space-between;}
+.words{
+    width: 50%;
+    float: left;
+}
+.us{
+    width: 50%;
+    float: right;
+}
